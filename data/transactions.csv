@@ -1,15 +1,115 @@
-User_ID,Date,Time,Amount,Type,Description,Merchant,Category,Payment mode,Account,Location,Recurring
-1.0,2025-06-15,10:30,1500.0,Debit,Groceries purchase,BigBasket,Groceries,Card,HDFC,Hyderabad,True
-1.0,2025-06-18,12:15,750.0,Debit,Lunch at KFC,KFC,Food & Drinks,UPI,SBI,Bangalore,False
-1.0,2025-06-20,09:45,2500.0,Debit,Train Ticket Booking,IRCTC,Travel,Wallet,ICICI,Delhi,True
-1.0,2025-06-25,15:30,-1000.0,Credit,Refund from IRCTC,IRCTC,Travel,Wallet,ICICI,Delhi,False
-,,,,,,,,,Debit,Food & Drinks,False
-,,,,,,,,,Debit,Food & Drinks,False
-1,2025-08-02,01:00,2500,Shopping,Amazon,Card,HDFC,Hyderabad,Credit,Utilities,False
-1,2020-04-02,12:00,1000,Exam,College,Card,ICICI,Hyderabad,Credit,Others,True
-3,2020-03-15,12:00,2000,Shopping,Trends,Card,ICICI,Mumbai,Credit,Utilities,True
-3,2021-09-18,04:39,1020,Food,Zomato,UPI,HDFC,Chennai,Credit,Food & Drinks,True
-3,2023-05-13,10:20,3000,Petrol,IndianOil,Card,IndusInd,Mumbai,Credit,Transport,True
-3,2024-12-30,12:40,5000,Gift,Amazon,UPI,ICICI,Hyderabad,Credit,Others,False
-3,2024-12-12,12:55,3500,Food,Swiggy,Card,HDFC,Mumbai,Credit,Food & Drinks,False
-3,2024-11-29,03:40,300,Groceries,Ratnadeep,Card,HDFC,Hyderabad,Credit,Groceries,True
+User_ID,Date,Time,Amount,Type,Description,Merchant,Category,Payment mode,Account,Location,Recurring,Payment Mode
+1.0,2025-06-15,10:30,1500.0,Debit,Groceries purchase,BigBasket,Groceries,Card,HDFC,Hyderabad,True,
+1.0,2025-06-18,12:15,750.0,Debit,Lunch at KFC,KFC,Food & Drinks,UPI,SBI,Bangalore,False,
+1.0,2025-06-20,09:45,2500.0,Debit,Train Ticket Booking,IRCTC,Travel,Wallet,ICICI,Delhi,True,
+1.0,2025-06-25,15:30,-1000.0,Credit,Refund from IRCTC,IRCTC,Travel,Wallet,ICICI,Delhi,False,
+,,,,,,,,,Debit,Food & Drinks,False,
+,,,,,,,,,Debit,Food & Drinks,False,
+1.0,2025-08-02,01:00,2500.0,Shopping,Amazon,Card,HDFC,Hyderabad,Credit,Utilities,False,
+1.0,2020-04-02,12:00,1000.0,Exam,College,Card,ICICI,Hyderabad,Credit,Others,True,
+3.0,2020-03-15,12:00,2000.0,Shopping,Trends,Card,ICICI,Mumbai,Credit,Utilities,True,
+3.0,2021-09-18,04:39,1020.0,Food,Zomato,UPI,HDFC,Chennai,Credit,Food & Drinks,True,
+3.0,2023-05-13,10:20,3000.0,Petrol,IndianOil,Card,IndusInd,Mumbai,Credit,Transport,True,
+3.0,2024-12-30,12:40,5000.0,Gift,Amazon,UPI,ICICI,Hyderabad,Credit,Others,False,
+3.0,2024-12-12,12:55,3500.0,Food,Swiggy,Card,HDFC,Mumbai,Credit,Food & Drinks,False,
+3.0,2024-11-29,03:40,300.0,Groceries,Ratnadeep,Card,HDFC,Hyderabad,Credit,Groceries,True,
+3.0,12/6/2025,20:00,864.52,Debit,Payment to BigBasket,BigBasket,Groceries,,Paytm Wallet,Chennai,True,Cash
+3.0,29/06/2025,21:26,2235.16,Debit,Payment to Zomato,Zomato,Food & Drinks,,SBI,Chennai,True,UPI
+3.0,23/06/2025,14:04,1369.18,Debit,Payment to Uber,Uber,Transport,,Paytm Wallet,Delhi,False,Wallet
+3.0,6/3/2025,22:53,928.06,Debit,Payment to Landlord,Landlord,Rent,,ICICI,Hyderabad,True,Card
+3.0,26/06/2025,10:42,2640.03,Debit,Payment to BigBasket,BigBasket,Groceries,,HDFC,Chennai,False,Cash
+3.0,6/28/2025,19:17,4176.92,Debit,Payment to BigBasket,BigBasket,Groceries,,HDFC,Chennai,False,UPI
+3.0,8/6/2025,20:48,4769.4,Debit,Payment to Netflix,Netflix,Entertainment,,ICICI,Mumbai,True,Cash
+3.0,14/06/2025,12:55,1254.98,Debit,Payment to Swiggy,Swiggy,Food & Drinks,,Paytm Wallet,Bangalore,False,Card
+3.0,20/06/2025,22:15,3434.65,Debit,Payment to IRCTC,IRCTC,Travel,,ICICI,Bangalore,False,Wallet
+3.0,19/06/2025,3:38,772.27,Debit,Payment to Airtel,Airtel,,,HDFC,Mumbai,True,UPI
+3.0,29/06/2025,10:17,-2213.56,Credit,Payment to IRCTC,IRCTC,Travel,,ICICI,Chennai,True,Wallet
+3.0,6/6/2025,7:56,318.04,Debit,Payment to Uber,Uber,Transport,,HDFC,Bangalore,False,Cash
+3.0,6/24/2025,10:32,1903.97,Debit,Payment to Starbucks,Starbucks,Food & Drinks,,HDFC,Chennai,True,UPI
+3.0,14/06/2025,7:10,1759.98,Debit,Payment to Airtel,Airtel,Utilities,,SBI,Chennai,False,Card
+3.0,6/20/2025,0:25,1070.74,Debit,Payment to Landlord,Landlord,Rent,,SBI,Hyderabad,True,Wallet
+3.0,6/14/2025,10:45,247.06,Debit,Payment to Airtel,Airtel,Utilities,,HDFC,Chennai,True,Card
+3.0,6/20/2025,0:15,562.63,Debit,Payment to Flipkart,Flipkart,Shopping,,SBI,Chennai,False,Wallet
+3.0,6/8/2025,6:39,-2750.3,Credit,Payment to Amazon,Amazon,Shopping,,Paytm Wallet,Delhi,True,UPI
+3.0,6/12/2025,2:03,3527.41,Debit,Payment to Flipkart,Flipkart,Shopping,,SBI,Bangalore,True,Cash
+3.0,1/6/2025,13:32,1768.18,Debit,Payment to BigBasket,BigBasket,Groceries,,SBI,Hyderabad,False,UPI
+3.0,15/06/2025,7:15,-2545.66,Credit,Payment to Zomato,Zomato,,,HDFC,Hyderabad,False,Cash
+3.0,15/06/2025,9:20,4969.86,Debit,Payment to Uber,Uber,,,Paytm Wallet,Delhi,False,Cash
+3.0,12/6/2025,8:02,1101.57,Debit,Payment to Electricity Board,Electricity Board,Utilities,,SBI,Hyderabad,True,Wallet
+3.0,6/22/2025,8:06,4033.0,Debit,Payment to IRCTC,IRCTC,Travel,,SBI,Hyderabad,True,UPI
+3.0,6/4/2025,20:46,1020.35,Debit,Payment to Uber,Uber,Transport,,ICICI,Mumbai,False,Card
+3.0,13/06/2025,22:45,4297.3,Debit,Payment to BigBasket,BigBasket,Groceries,,Paytm Wallet,Chennai,True,Wallet
+3.0,26/06/2025,10:56,927.99,Debit,Payment to Amazon,Amazon,Shopping,,HDFC,Mumbai,False,UPI
+3.0,6/29/2025,22:51,674.0,Debit,Payment to Uber,Uber,Transport,,Paytm Wallet,Delhi,True,UPI
+3.0,6/19/2025,2:20,2598.9,Debit,Payment to Zomato,Zomato,Food & Drinks,,ICICI,Mumbai,False,Card
+3.0,27/06/2025,16:19,4380.94,Debit,Payment to PayTM,PayTM,,,Paytm Wallet,Mumbai,False,Cash
+3.0,6/28/2025,15:56,4124.1,Debit,Payment to Zomato,Zomato,Food & Drinks,,HDFC,Delhi,False,UPI
+3.0,7/6/2025,1:39,265.13,Debit,Payment to Netflix,Netflix,Entertainment,,SBI,Chennai,False,Card
+3.0,3/6/2025,21:52,3014.15,Debit,Payment to Electricity Board,Electricity Board,,,Paytm Wallet,Bangalore,False,UPI
+3.0,6/3/2025,7:22,3152.93,Debit,Payment to Starbucks,Starbucks,Food & Drinks,,HDFC,Chennai,True,UPI
+3.0,29/06/2025,7:05,3963.7,Debit,Payment to Electricity Board,Electricity Board,,,ICICI,Bangalore,False,Wallet
+3.0,11/6/2025,22:29,2060.97,Debit,Payment to Amazon,Amazon,Shopping,,Paytm Wallet,Chennai,True,UPI
+3.0,6/19/2025,23:49,623.58,Debit,Payment to Dominos,Dominos,Food & Drinks,,Paytm Wallet,Bangalore,True,Card
+3.0,6/30/2025,18:52,1229.63,Debit,Payment to IRCTC,IRCTC,Travel,,Paytm Wallet,Hyderabad,False,Cash
+3.0,6/23/2025,7:49,4992.5,Debit,Payment to Swiggy,Swiggy,Food & Drinks,,SBI,Hyderabad,True,Cash
+3.0,6/17/2025,14:24,3582.33,Debit,Payment to IRCTC,IRCTC,Travel,,SBI,Mumbai,True,Card
+3.0,6/7/2025,9:52,1080.92,Debit,Payment to Airtel,Airtel,Utilities,,ICICI,Mumbai,False,Wallet
+3.0,6/6/2025,4:01,-4290.78,Credit,Payment to Zomato,Zomato,Food & Drinks,,Paytm Wallet,Bangalore,False,Wallet
+3.0,29/06/2025,2:09,175.23,Debit,Payment to Flipkart,Flipkart,Shopping,,ICICI,Chennai,True,Wallet
+3.0,1/6/2025,9:19,1987.85,Debit,Payment to IRCTC,IRCTC,Travel,,Paytm Wallet,Hyderabad,False,UPI
+3.0,6/12/2025,16:57,164.83,Debit,Payment to Dominos,Dominos,,,HDFC,Chennai,False,Card
+3.0,30/06/2025,2:02,3216.66,Debit,Payment to Zomato,Zomato,Food & Drinks,,SBI,Hyderabad,True,Card
+3.0,6/25/2025,10:17,1187.05,Debit,Payment to IRCTC,IRCTC,Travel,,SBI,Bangalore,False,Card
+3.0,1/6/2025,13:16,597.79,Debit,Payment to Swiggy,Swiggy,Food & Drinks,,Paytm Wallet,Mumbai,True,UPI
+3.0,6/26/2025,11:57,4222.44,Debit,Payment to Dominos,Dominos,Food & Drinks,,Paytm Wallet,Chennai,True,UPI
+3.0,9/6/2025,3:26,3553.62,Debit,Payment to Dominos,Dominos,Food & Drinks,,SBI,Hyderabad,False,UPI
+3.0,6/24/2025,18:18,-2090.45,Credit,Payment to Hotstar,Hotstar,Entertainment,,SBI,Bangalore,False,Card
+3.0,6/10/2025,1:37,1173.08,Debit,Payment to Swiggy,Swiggy,Food & Drinks,,SBI,Chennai,False,Wallet
+3.0,6/7/2025,7:52,3053.59,Debit,Payment to Uber,Uber,Transport,,ICICI,Bangalore,False,Cash
+3.0,25/06/2025,2:37,174.09,Debit,Payment to Netflix,Netflix,Entertainment,,Paytm Wallet,Bangalore,True,Wallet
+3.0,10/6/2025,20:07,-4088.84,Credit,Payment to IRCTC,IRCTC,Travel,,HDFC,Chennai,True,Wallet
+3.0,6/25/2025,7:48,1835.52,Debit,Payment to Hotstar,Hotstar,,,ICICI,Delhi,False,Cash
+3.0,15/06/2025,7:33,3050.98,Debit,Payment to PayTM,PayTM,Wallet Top-Up,,Paytm Wallet,Bangalore,True,Card
+3.0,10/6/2025,6:53,3537.78,Debit,Payment to IRCTC,IRCTC,,,SBI,Mumbai,True,Wallet
+3.0,3/6/2025,2:06,3962.24,Debit,Payment to Hotstar,Hotstar,Entertainment,,SBI,Mumbai,True,UPI
+3.0,25/06/2025,9:37,3242.15,Debit,Payment to Zomato,Zomato,,,SBI,Bangalore,False,Card
+3.0,6/23/2025,0:13,3276.32,Debit,Payment to Dominos,Dominos,Food & Drinks,,HDFC,Mumbai,False,Wallet
+3.0,4/6/2025,14:53,2303.95,Debit,Payment to BigBasket,BigBasket,Groceries,,HDFC,Bangalore,False,Card
+3.0,6/11/2025,7:38,2933.0,Debit,Payment to PayTM,PayTM,Wallet Top-Up,,Paytm Wallet,Delhi,False,Card
+3.0,6/24/2025,12:37,4468.95,Debit,Payment to Airtel,Airtel,Utilities,,Paytm Wallet,Chennai,True,Wallet
+3.0,24/06/2025,22:16,2476.02,Debit,Payment to Electricity Board,Electricity Board,Utilities,,ICICI,Bangalore,True,Cash
+3.0,21/06/2025,11:54,495.48,Debit,Payment to Uber,Uber,Transport,,ICICI,Mumbai,True,UPI
+3.0,6/20/2025,6:36,4901.36,Debit,Payment to Netflix,Netflix,Entertainment,,SBI,Delhi,False,Card
+3.0,30/06/2025,22:32,3762.31,Debit,Payment to Starbucks,Starbucks,Food & Drinks,,SBI,Mumbai,False,Wallet
+3.0,6/27/2025,17:49,1132.89,Debit,Payment to Electricity Board,Electricity Board,Utilities,,Paytm Wallet,Delhi,False,Wallet
+3.0,20/06/2025,6:23,2243.18,Debit,Payment to Starbucks,Starbucks,Food & Drinks,,HDFC,Delhi,True,Wallet
+3.0,15/06/2025,14:49,-3587.43,Credit,Payment to Netflix,Netflix,Entertainment,,Paytm Wallet,Bangalore,False,UPI
+3.0,20/06/2025,3:01,1638.69,Debit,Payment to BigBasket,BigBasket,Groceries,,SBI,Chennai,True,Cash
+3.0,12/6/2025,2:03,3486.18,Debit,Payment to Flipkart,Flipkart,Shopping,,SBI,Mumbai,True,UPI
+3.0,24/06/2025,19:33,4574.0,Debit,Payment to Swiggy,Swiggy,Food & Drinks,,SBI,Hyderabad,False,UPI
+3.0,27/06/2025,4:02,1571.86,Debit,Payment to Swiggy,Swiggy,Food & Drinks,,HDFC,Bangalore,False,Cash
+3.0,6/29/2025,22:50,4840.32,Debit,Payment to Flipkart,Flipkart,Shopping,,SBI,Hyderabad,False,Cash
+3.0,6/26/2025,14:30,2453.83,Debit,Payment to Airtel,Airtel,Utilities,,ICICI,Chennai,False,Wallet
+3.0,6/17/2025,1:57,3089.21,Debit,Payment to Landlord,Landlord,Rent,,SBI,Bangalore,False,Wallet
+3.0,4/6/2025,9:35,3932.25,Debit,Payment to Swiggy,Swiggy,Food & Drinks,,ICICI,Hyderabad,True,Cash
+3.0,23/06/2025,19:42,2205.37,Debit,Payment to Netflix,Netflix,Entertainment,,SBI,Bangalore,False,Wallet
+3.0,15/06/2025,23:07,1181.63,Debit,Payment to Airtel,Airtel,Utilities,,ICICI,Chennai,True,UPI
+3.0,8/6/2025,2:46,219.4,Debit,Payment to Starbucks,Starbucks,,,SBI,Bangalore,False,UPI
+3.0,4/6/2025,16:27,-4599.48,Credit,Payment to Starbucks,Starbucks,Food & Drinks,,SBI,Mumbai,True,Cash
+3.0,6/18/2025,2:02,576.16,Debit,Payment to Swiggy,Swiggy,Food & Drinks,,ICICI,Mumbai,True,Card
+3.0,6/30/2025,18:21,2621.45,Debit,Payment to Airtel,Airtel,Utilities,,HDFC,Mumbai,True,Cash
+3.0,11/6/2025,1:49,4391.21,Debit,Payment to Electricity Board,Electricity Board,,,ICICI,Hyderabad,True,Cash
+3.0,6/8/2025,16:07,284.39,Debit,Payment to BigBasket,BigBasket,,,SBI,Chennai,False,Card
+3.0,8/6/2025,18:00,922.69,Debit,Payment to Starbucks,Starbucks,Food & Drinks,,Paytm Wallet,Hyderabad,False,UPI
+3.0,15/06/2025,21:43,3970.25,Debit,Payment to Electricity Board,Electricity Board,Utilities,,SBI,Bangalore,True,Card
+3.0,19/06/2025,2:14,3832.82,Debit,Payment to PayTM,PayTM,Wallet Top-Up,,Paytm Wallet,Mumbai,True,Wallet
+3.0,26/06/2025,22:49,3053.98,Debit,Payment to Landlord,Landlord,Rent,,HDFC,Chennai,True,Wallet
+3.0,1/7/2025,17:52,1545.2,Debit,Payment to PayTM,PayTM,Wallet Top-Up,,Paytm Wallet,Hyderabad,True,Wallet
+3.0,6/22/2025,13:42,1959.14,Debit,Payment to Starbucks,Starbucks,Food & Drinks,,SBI,Delhi,False,Wallet
+3.0,6/24/2025,14:12,4373.93,Debit,Payment to Swiggy,Swiggy,Food & Drinks,,HDFC,Chennai,False,Wallet
+3.0,6/10/2025,11:59,4298.1,Debit,Payment to Hotstar,Hotstar,Entertainment,,HDFC,Bangalore,False,Wallet
+3.0,6/24/2025,6:49,3608.91,Debit,Payment to Starbucks,Starbucks,Food & Drinks,,Paytm Wallet,Bangalore,False,Wallet
+3.0,6/27/2025,14:04,2133.76,Debit,Payment to Electricity Board,Electricity Board,,,SBI,Chennai,True,Card
+3.0,15/06/2025,3:11,1055.65,Debit,Payment to Netflix,Netflix,Entertainment,,ICICI,Chennai,False,Wallet
+3.0,6/14/2025,14:44,683.12,Debit,Payment to Electricity Board,Electricity Board,Utilities,,HDFC,Chennai,False,UPI
+3.0,27/06/2025,13:30,4403.05,Debit,Payment to Amazon,Amazon,Shopping,,ICICI,Delhi,True,Cash
