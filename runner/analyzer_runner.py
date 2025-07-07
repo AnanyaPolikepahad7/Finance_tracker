@@ -1,27 +1,27 @@
-# runner/analyzer_runner.py
-
+import pandas as pd
 from ingestion.data_ingestion import load_and_clean_data
 from analysis.analysis_engine import perform_clustering, detect_anomalies
-from visualization.visualizer import (
-    plot_pie_chart_by_category, plot_bar_chart_by_category, plot_anomalies
-)
+from visualization.visualizer import show_visualizations
 
-def run_analysis_for_user(user_id, tk_frame=None):
+def run_analysis_for_user(user_id):
     df = load_and_clean_data("data/transactions.csv")
-    print("🔍 All available User_IDs:", df['User_ID'].unique())
-    df.columns = df.columns.str.strip()
-    df['User_ID'] = df['User_ID'].astype(str).str.replace('.0', '', regex=False)
-    df = df[df['User_ID'] == str(user_id)]
 
+    # Normalize User_ID values to remove decimal points
+    df['User_ID'] = df['User_ID'].astype(str).str.strip().str.replace('.0', '', regex=False)
+    user_id = str(user_id).strip().replace('.0', '')
 
+    print(f"📥 All User_IDs: {df['User_ID'].unique()}")
+    print(f"🔎 Filtering for User_ID: {user_id}")
 
-    if df.empty:
-        print(f"No transactions found for user: {user_id}")
+    user_df = df[df['User_ID'] == user_id]
+
+    if user_df.empty:
+        print(f"🚫 No transactions found for user: {user_id}")
         return
 
-    clustered_df = perform_clustering(df)
-    anomaly_df = detect_anomalies(clustered_df)
+    print(f"🔍 Transactions found for user {user_id}: {len(user_df)}")
 
-    plot_pie_chart_by_category(anomaly_df, tk_frame)
-    plot_bar_chart_by_category(anomaly_df, tk_frame)
-    plot_anomalies(anomaly_df, tk_frame)
+    clustered_df = perform_clustering(user_df)
+    final_df = detect_anomalies(clustered_df)
+
+    show_visualizations(final_df, user_id)

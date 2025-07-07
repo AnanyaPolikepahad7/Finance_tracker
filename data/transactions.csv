@@ -9,3 +9,7 @@ User_ID,Date,Time,Amount,Type,Description,Merchant,Category,Payment mode,Account
 1,2020-04-02,12:00,1000,Exam,College,Card,ICICI,Hyderabad,Credit,Others,True
 3,2020-03-15,12:00,2000,Shopping,Trends,Card,ICICI,Mumbai,Credit,Utilities,True
 3,2021-09-18,04:39,1020,Food,Zomato,UPI,HDFC,Chennai,Credit,Food & Drinks,True
+3,2023-05-13,10:20,3000,Petrol,IndianOil,Card,IndusInd,Mumbai,Credit,Transport,True
+3,2024-12-30,12:40,5000,Gift,Amazon,UPI,ICICI,Hyderabad,Credit,Others,False
+3,2024-12-12,12:55,3500,Food,Swiggy,Card,HDFC,Mumbai,Credit,Food & Drinks,False
+3,2024-11-29,03:40,300,Groceries,Ratnadeep,Card,HDFC,Hyderabad,Credit,Groceries,True
